@@ -46,6 +46,7 @@ console.log(jsec.encode(payload, keyset));
 ```javascript
 var jsec = require('jsec');
 
+// map of accepted keysets
 var keysets = {
     '1': {
         // signature key - same as before
