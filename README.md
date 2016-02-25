@@ -64,6 +64,6 @@ var encoded = ... // the base64-url encoded string
 console.log(jsec.decode(encoded, keysets));
 
 // returns an object with 2 properties: 
-// .keyset - the keyset id used to decode the payload
+// .id - the keyset id used to decode the payload
 // .payload - JSON-deserialized plaintext payload
 ```
