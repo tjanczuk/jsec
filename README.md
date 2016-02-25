@@ -43,6 +43,7 @@ console.log(jsec.encode(payload, keyset));
 
 ### Decoding
 
+```javascript
 var jsec = require('jsec');
 
 var keysets = {
